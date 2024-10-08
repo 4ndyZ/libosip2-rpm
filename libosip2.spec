@@ -74,3 +74,4 @@ mv %{buildroot}%{_mandir}/man1/osip.1 %{buildroot}%{_mandir}/man1/osip2.1
 %{_mandir}/man1/osip2.1*
 
 %changelog
+%autochangelog
