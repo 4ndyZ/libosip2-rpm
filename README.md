@@ -1,1 +1,2 @@
-# libosip2-rpm-spec
+# libosip2-rpm
+

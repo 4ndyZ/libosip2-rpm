@@ -1,12 +1,16 @@
-Name: libosip2
-Version: 5.3.1
-Release: 1%{?dist}
-Summary: oSIP is an implementation of SIP
-License: LGPL-2.0-or-later
+%global project_version_major 3
+%global project_version_minor 6
+%global project_version_patch 0
 
-URL: https://www.gnu.org/software/osip/
+Name:          libosip2
+Version:       %{project_version_major}.%{project_version_minor}.%{project_version_patch}
+Release:       1%{?dist}
+Summary:       oSIP is an implementation of SIP
+License:       LGPL-2.0-or-later
 
-Source0: https://ftp.gnu.org/gnu/osip/%{name}-%{version}.tar.gz
+URL:           https://www.gnu.org/software/osip/
+
+Source0:       https://ftp.gnu.org/gnu/osip/%{name}-%{version}.tar.gz
 
 BuildRequires: autoconf
 BuildRequires: automake
