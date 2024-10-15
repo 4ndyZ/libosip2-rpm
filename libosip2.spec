@@ -1,6 +1,6 @@
-%global project_version_major 3
-%global project_version_minor 6
-%global project_version_patch 0
+%global project_version_major 5
+%global project_version_minor 3
+%global project_version_patch 1
 
 Name:          libosip2
 Version:       %{project_version_major}.%{project_version_minor}.%{project_version_patch}
